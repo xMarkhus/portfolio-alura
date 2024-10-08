@@ -1,0 +1,604 @@
+.cabecalho__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+    white-space: nowrap;
+}
+
+.cabecalho__home {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cabecalho__home a,
+.cabecalho__subpaginas__contato {
+    font-weight: 700;
+}
+
+.cabecalho__subpaginas {
+    display: flex;
+    gap: 25px;
+    font-weight: 500;
+}
+
+.info__container {
+    display: flex;
+    margin-top: 32px;
+    gap: 17px;
+}
+
+.info__descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 61px;
+    text-align: left;
+}
+
+.info__descricao-titulo {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61.05px;
+}
+
+.info__descricao-paragrafo {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25.83px;
+}
+
+.info__descricao-redes {
+    display: flex;
+    gap: 24px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.info__descricao-redes ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 24px;
+}
+
+.items__redes {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.sobremim__container {
+    background-color: #EAF2FD;
+    margin-top: 32px;
+    padding: 64px 0 64px 0;
+}
+
+.sobremim__descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    padding-right: 385px;
+}
+
+.sobremim__descricao-titulo,
+.skills__titulo,
+.hobbies__titulo,
+.formacoes__titulo,
+.projetos__titulo,
+.contato__secao-form-titulo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+}
+
+.sobremim__descricao-paragrafos {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.78px;
+    gap: 10px;
+    text-align: left;
+}
+
+.skills__container {
+    margin-top: 32px;
+}
+
+.skills__lista,
+.hobbies__lista,
+.formacoes__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.skills__itens,
+.hobbies__itens {
+    display: flex;
+    align-items: flex-end;
+    background-color: #fff;
+    width: 176px;
+    height: 174px;
+    padding: 16px;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.skills__itens-conteudo,
+.hobbies__itens-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.skills__itens-titulo,
+.hobbies__itens-titulo {
+    margin-top: 8px;
+}
+
+.skills__itens-titulo-img,
+.hobbies__itens-titulo-img {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.hobbies__container {
+    padding-top: 88px;
+    padding-bottom: 88px;
+}
+
+.formacoes__container {
+    background-color: #EAF2FD;
+    padding: 82px 0 82px 0;
+}
+
+.formacoes__itens {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.formacoes__itens-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 368px;
+    height: 286px;
+    padding: 16px;
+}
+
+.formacoes__itens-descricao {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+}
+
+.formacoes__itens-titulo,
+.projeto__info-titulo {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.formacoes__itens-subtitulo,
+.projeto__info-descricao,
+.contato__secao-form-paragrafo,
+.rodape__paragrafo {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.projetos__container  {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.projetos__lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    margin-top: 32px;
+}
+
+.projetos__itens {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    text-align: left;
+}
+
+.projeto__info-titulo-descricao-botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.projeto__info-botoes {
+    display: flex;
+    gap: 16px;
+}
+
+.projeto__info-botao-rep {
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    width: 116px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.projeto__info-botao-demo {
+    color: #fff;
+    background-color: #2A7AE4;
+    width: 116px;
+    height: 51px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contato__container {
+    background-color: #EAF2FD;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.contato__conteudo {
+    display: flex;
+    gap: 16px;
+}
+
+.contato__img {
+    margin-top: 65.5px;
+}
+
+.contato__secao-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    margin-top: 64px;
+    width: 100%;
+}
+
+.contato__secao-form-apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.contato__secao-form-paragrafos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contato__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    width: 100%;
+}
+
+.input__group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    padding-left: 12px;
+    padding-right: 12px;
+    gap: 4px;
+    height: 56px;
+    border: none;
+    width: 100%;
+}
+
+.input__textarea {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 133px;
+    border: none;
+    gap: 4px;
+    width: 100%;
+}
+
+.label__assunto,
+.input__textarea label {
+    margin-top: 16px;
+}
+
+.label__nome,
+.label__email {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.label__nome,
+#assunto::placeholder,
+#mensagem::placeholder {
+    color: #A2A2A2;
+}
+
+.label__email {
+    color: #2A7AE4;
+}
+
+#nome::placeholder,
+#email::placeholder {
+    font-weight: 400;
+    color: #464646;
+}
+
+.form__botao {
+    color: #fff;
+    background-color: #2A7AE4;
+    width: 165px;
+    height: 55.5px;
+    padding: 16px;
+}
+
+.input__group input,
+.input__textarea textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border: none;
+}
+
+.rodape__container {
+    padding: 32px;
+}
+
+.rodape__paragrafos {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.btn__enviar-msg,
+.projeto__info-botao-rep,
+.projeto__info-botao-demo {
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+    
+    /* FONTES MOBILE */
+
+    .cabecalho__subpaginas__contato,
+    .info__descricao-paragrafo,
+    .sobremim__descricao-paragrafo,
+    .items__redes,
+    .formacoes__itens-subtitulo,
+    .projeto__info-descricao,
+    .btn__enviar-msg,
+    .projeto__info-botao-rep,
+    .projeto__info-botao-demo {
+        font-size: 14px;
+    }
+
+    .info__descricao-titulo,
+    .sobremim__descricao-titulo,
+    .skills__titulo, 
+    .hobbies__titulo,
+    .formacoes__titulo,
+    .projetos__titulo,
+    .contato__secao-form-titulo {
+        font-size: 22px;
+        line-height: 25.83px;
+    }
+
+    .projeto__info-titulo,
+    .formacoes__itens-titulo,
+    .contato__secao-form-paragrafo,
+    .rodape__paragrafo {
+        font-size: 16px;
+    }
+
+    .cabecalho__subpaginas__contato {
+        font-weight: 400;
+    }
+    
+    .items__redes {
+        font-weight: 600;
+    }
+
+    /* ESTILIZAÇÃO MOBILE  */
+
+    .cabecalho__container,
+    .info__container,
+    .sobremim__descricao,
+    .skills__container,
+    .hobbies__container,
+    .formacoes__descricao,
+    .projetos_container,
+    .projetos__lista,
+    .contato__conteudo,
+    .contato__secao-form {
+        margin: 0;
+    }
+
+    .cabecalho__container,
+    .info__container,
+    .sobremim__descricao,
+    .skills__container,
+    .hobbies__container {
+        padding: 16px;
+    }
+
+    .formacoes__descricao,
+    .projetos__container,
+    .contato__container {
+        padding: 32px;
+    }
+
+    .cabecalho__subpaginas__nome {
+        display: none;
+    }
+
+    .info__container {
+        flex-direction: column-reverse;
+        box-sizing: border-box;
+    }
+    
+    .info__imagem {
+        width: 98px;
+        height: 98px;
+    }
+
+    .skills__lista,
+    .hobbies__lista {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 32px;
+    }
+    
+    .skills__itens,
+    .hobbies__itens {
+        width: 100%;
+    }
+    
+    .formacoes__itens-img {
+        width: 100%;
+    }
+    
+    .formacoes__lista {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .projetos__itens {
+        margin-top: 16px;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .contato__img {
+        display: none;
+    }
+    
+    .contato__secao-form-paragrafos {
+        text-align: left;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+
+    /* FONTES TABLET */
+    
+    .sobremim__descricao-paragrafo,
+    .items__redes,
+    .formacoes__itens-subtitulo,
+    .projeto__info-descricao,
+    .btn__enviar-msg,
+    .projeto__info-botao-rep,
+    .projeto__info-botao-demo {
+        font-size: 14px;
+    }
+
+    .info__descricao-titulo,
+    .sobremim__descricao-titulo,
+    .skills__titulo, 
+    .hobbies__titulo,
+    .formacoes__titulo,
+    .projetos__titulo,
+    .contato__secao-form-titulo {
+        font-size: 22px;
+        line-height: 25.83px;
+    }
+
+    .projeto__info-titulo,
+    .formacoes__itens-titulo,
+    .contato__secao-form-paragrafo,
+    .rodape__paragrafo,
+    .info__descricao-paragrafo {
+        font-size: 16px;
+    }
+
+    .cabecalho__container,
+    .info__container,
+    .sobremim__descricao,
+    .skills__container,
+    .hobbies__container,
+    .formacoes__descricao,
+    .projetos_container,
+    .projetos__lista,
+    .contato__conteudo,
+    .contato__secao-form {
+        margin: 0;
+    }
+
+    .cabecalho__container,
+    .info__container,
+    .sobremim__descricao,
+    .skills__container,
+    .hobbies__container,
+    .formacoes__descricao,
+    .projetos__container,
+    .contato__container {
+        padding: 32px;
+    }
+
+    .projetos__container img {
+        max-width: 100%;
+    }
+
+    .cabecalho__subpaginas__nome {
+        display: none;
+    }
+    
+    .info__imagem {
+        width: 250px;
+        height: 250px;
+    }
+
+    .projetos__itens {
+        margin-top: 32px;
+    }
+
+    .skills__lista,
+    .hobbies__lista {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 32px;
+    }
+
+    .skills__itens,
+    .hobbies__itens {
+        width: 100%;
+    }
+
+    .formacoes__itens-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contato__img {
+        display: none;
+    }
+}
